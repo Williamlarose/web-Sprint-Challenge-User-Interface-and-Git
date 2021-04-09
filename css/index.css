@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -82,7 +82,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    
 }
 
 .middle-content {
@@ -104,13 +105,26 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+   
     margin: 20px 2.5%;
-    color: white;
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/*boxcolor*/
+.box1{background-color:teal;}
+.box2{background-color:gold ;}
+.box3{background-color:cadetblue ;}
+.box4{background-color:coral ;}
+.box5{background-color:crimson ;}
+.box6{background-color:forestgreen ;}
+.box7{background-color:darkorchid ;}
+.box8{background-color:hotpink ;}
+.box9{background-color:indigo ;}
+.box10{background-color:dodgerblue ;}
+
 
 .bottom-content {
     display: flex;
@@ -127,8 +141,9 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 80%;
     background: black;
+    margin: 0 10%;
 }
 
 footer nav {
@@ -144,3 +159,63 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+ /*about header*/
+ 
+ nav {display: flex;
+ justify-content:space-around;
+align-items: left;
+}
+
+ nav a{margin: 2% 2%;
+color:black}
+ 
+
+ /*Jumbo pic*/
+ .jumbo{margin:3% 22%;
+align-items: center;}
+
+
+ /*Aboutbox*/
+ .aboutbox{text-align:justify;
+border-bottom: dotted 1px;}
+ .first{padding: 0 10%;
+margin-bottom: 2%;}
+.aboutbox h2{padding: 0 10%;}
+
+/*Content styling*/
+.content{display: flex;
+justify-content: space-evenly;
+}
+.strat{margin:2% 10%;
+border-bottom: dotted 1px;}
+.strat img{margin-bottom: 10px;}
+
+.work{
+    border-bottom: dotted 1px;
+margin: 2% 2%;}
+.work img{margin-bottom:10px;
+}
+
+    .content2{display: flex;
+        justify-content: space-evenly;}
+        .office{margin:2% 10%;
+            border-bottom: dotted 1px}
+            .office img{margin-bottom:10px}
+            .collab{ border-bottom: dotted 1px;
+                margin: 2% 2%;}
+
+                .last{
+                    font-size: 1.5rem;
+                margin: 5% 5%;}
+
+                .learn{display: inline-block;
+                    border: solid 3px blue;
+                border-radius: 10%;
+            margin:10;
+        color:blue;
+    text-align: center;
+    padding: 1%;}
+    
