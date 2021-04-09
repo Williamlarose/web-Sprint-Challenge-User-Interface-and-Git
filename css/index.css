@@ -212,10 +212,10 @@ margin: 2% 2%;}
                 margin: 5% 5%;}
 
                 .learn{display: inline-block;
-                    border: solid 3px blue;
+                    border: solid 3px;
                 border-radius: 10%;
             margin:10;
-        color:blue;
+        ;
     text-align: center;
     padding: 1%;}
     
